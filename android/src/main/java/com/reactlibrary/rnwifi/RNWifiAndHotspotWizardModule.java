@@ -1,4 +1,4 @@
-package com.reactnativewifiandhotspotwizard;
+package com.reactlibrary.rnwifi;
 
 import com.facebook.react.bridge.*;
 import java.lang.Object;
