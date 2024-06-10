@@ -16,6 +16,7 @@ public class RNWifiPackage implements ReactPackage {
     public List<NativeModule> createNativeModules(@NonNull ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
         modules.add(new RNWifiModule(reactContext));
+        modules.add(new RNWifiAndHotspotWizardModule(reactContext));
         return modules;
     }
 
